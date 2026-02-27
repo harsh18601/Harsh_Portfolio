@@ -1,16 +1,44 @@
-# React + Vite
+# Harsh Gupta - Full Stack Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Professional portfolio website showcasing expertise in Full-Stack Development, AI Automation (Agentic AI, n8n), and modern web technologies.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dynamic Hero Section**: Impactful introduction with smooth reveal animations.
+- **Service Offerings**: Detailed breakdown of freelance services including AI Automation and Web Development.
+- **GitHub Integration**: Live visualization of coding activity and top languages.
+- **Project Showcase**: Curated selection of projects with direct links to live demos and repositories.
+- **Responsive Design**: Optimized for all devices with a premium "Glassmorphism" aesthetic.
+- **Email/Contact Suite**: Direct integration with professional communication channels.
 
-## React Compiler
+## 🛠️ Technology Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React.js, Vite, Vanilla CSS
+- **Design**: Modern UI/UX principles, Custom SVG Iconography
+- **Automation**: n8n, Agentic AI Workflows
+- **Tools**: Git, GitHub API (for stats)
 
-## Expanding the ESLint configuration
+## 📦 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+- Node.js (v16+)
+- npm or yarn
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone [your-repo-url]
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## 📬 Contact
+- **LinkedIn**: [Harsh Gupta](https://www.linkedin.com/in/harsh18601/)
+- **GitHub**: [@harsh18601](https://github.com/harsh18601)
+- **Phone**: +91 83064 69764
