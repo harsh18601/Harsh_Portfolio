@@ -56,7 +56,7 @@ const Stack = () => {
     return (
         <section id="stack" className="stack-section">
             <div className="stack-card">
-                <h3>Tech Stack</h3>
+                <h2 className="section-title">Tech Stack</h2>
                 <p className="stack-subtitle">Technologies I work with — full stack first, AI/ML secondary.</p>
 
                 {stackItems.map((group, gi) => (

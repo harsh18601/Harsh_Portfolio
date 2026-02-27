@@ -4,7 +4,7 @@ const About = () => {
     const highlights = [
         { icon: '🌐', label: 'Full Stack Development', desc: 'React, Angular, Node.js, SQL — end-to-end web apps' },
         {
-            icon: <img src="/assets/images/eth-logo.png" style={{ width: '20px', height: '20px', objectFit: 'contain' }} alt="Ethereum" />,
+            icon: <img src="/assets/images/eth-logo.png" alt="Ethereum" />,
             label: 'Blockchain & Web3',
             desc: 'Smart contracts with Solidity on Ethereum'
         },
