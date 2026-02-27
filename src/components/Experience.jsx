@@ -113,8 +113,14 @@ const Experience = () => {
             <h2 className="section-title">Experience</h2>
 
             <div className="experience-timeline">
-                {experiences.map((exp) => (
-                    <div key={exp.id} className="exp-card">
+                {experiences.map((exp, index) => (
+                    <div
+                        key={exp.id}
+                        className="exp-card"
+                        style={{
+                            transitionDelay: `${index * 0.15}s`
+                        }}
+                    >
                         <div className="exp-header">
                             <div className="exp-header-left">
                                 <h3 className="exp-role">{exp.role}</h3>

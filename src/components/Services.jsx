@@ -27,7 +27,11 @@ const Services = () => {
             <h2 className="section-title">Freelance Services</h2>
             <div className="services-grid">
                 {services.map((service, index) => (
-                    <div key={index} className="service-card">
+                    <div
+                        key={index}
+                        className="service-card"
+                        style={{ transitionDelay: `${index * 0.2}s` }}
+                    >
                         <div className="service-icon">{service.icon}</div>
                         <h3>{service.title}</h3>
                         <p>{service.description}</p>

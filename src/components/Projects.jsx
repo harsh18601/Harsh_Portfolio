@@ -90,13 +90,16 @@ const Projects = () => {
             </div>
 
             <div className="projects-grid">
-                {filtered.map(project => (
+                {filtered.map((project, index) => (
                     <a
                         key={project.id}
                         href={project.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="project-card"
+                        className={`project-card float-${index % 2 === 0 ? 'animation' : 'delayed'}`}
+                        style={{
+                            transitionDelay: `${index * 0.1}s`
+                        }}
                     >
                         <div className="project-image">
                             <img src={project.image} alt={project.title} />

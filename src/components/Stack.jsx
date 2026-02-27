@@ -66,7 +66,11 @@ const Stack = () => {
                         </p>
                         <div className="tools-list">
                             {group.tools.map((tool, index) => (
-                                <div key={index} className="tool-item">
+                                <div
+                                    key={index}
+                                    className="tool-item"
+                                    style={{ transitionDelay: `${index * 0.05}s` }}
+                                >
                                     <div className="tool-icon">
                                         {(tool.icon.startsWith('http') || tool.icon.startsWith('/')) ? (
                                             <img src={tool.icon} alt={tool.name} onError={(e) => { e.target.style.opacity = '0.3'; }} />
