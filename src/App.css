@@ -609,8 +609,9 @@ section {
 }
 
 .exp-card:hover {
-  border-color: rgba(168, 85, 247, 0.4);
-  transform: translateY(-1px);
+  border-color: var(--accent-color);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(168, 85, 247, 0.15);
 }
 
 .exp-header {

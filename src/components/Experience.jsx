@@ -116,7 +116,7 @@ const Experience = () => {
                 {experiences.map((exp, index) => (
                     <div
                         key={exp.id}
-                        className="exp-card"
+                        className={`exp-card float-${index % 2 === 0 ? 'animation' : 'delayed'}`}
                         style={{
                             transitionDelay: `${index * 0.15}s`
                         }}
