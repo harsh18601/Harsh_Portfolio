@@ -10,7 +10,7 @@ const educationData = [
         location: 'Gurugram, India',
         duration: '2019 – 2023',
         grade: '7.9 CGPA',
-        description: 'Focused on software engineering, data structures, algorithms, and emerging technologies. Active member of the university marketing team and cricket team.',
+        description: '',
         highlights: ['Full Stack Development', 'Machine Learning', 'Data Structures & Algorithms'],
     },
     {
@@ -21,8 +21,8 @@ const educationData = [
         institution: 'High School',
         location: 'Jaipur, India', // Assuming location remains the same or is a placeholder
         duration: '2017 – 2019',
-        grade: 'Percentage: --%',
-        description: 'Completed higher secondary education with a focus on PCM.',
+        grade: '87.5%',
+        description: '',
         highlights: [],
     },
     {
@@ -33,8 +33,8 @@ const educationData = [
         institution: 'Secondary School',
         location: 'Jaipur, India', // Assuming location remains the same or is a placeholder
         duration: '2016 – 2017',
-        grade: 'CGPA: --',
-        description: 'Foundational schooling with academic excellence.',
+        grade: '9.4 CGPA',
+        description: '',
         highlights: [],
     },
 ];

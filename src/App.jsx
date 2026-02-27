@@ -7,7 +7,6 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import About from './components/About';
 import Services from './components/Services';
-import GitHubStats from './components/GitHubStats';
 import Stack from './components/Stack';
 import Contact from './components/Contact';
 
@@ -44,7 +43,6 @@ const App = () => {
           <Projects />
           <About />
           <Services />
-          <GitHubStats />
           <Stack />
           <Contact />
           <footer className="footer">
