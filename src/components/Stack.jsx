@@ -21,6 +21,7 @@ const stackItems = [
             { name: 'Solidity', description: 'Smart Contracts', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg' },
             { name: 'Ethereum', description: 'Blockchain Platform', icon: '/assets/images/eth-logo.png' },
             { name: 'Metamask', description: 'Crypto Wallet', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/512px-MetaMask_Fox.svg.png' },
+            { name: 'Remix IDE', description: 'Smart Contract IDE', icon: 'https://cdn.worldvectorlogo.com/logos/remix.svg' },
         ]
     },
     {
