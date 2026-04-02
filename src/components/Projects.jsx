@@ -3,6 +3,36 @@ import React, { useState } from 'react';
 const projects = [
     {
         id: 1,
+        title: 'AI Resume & Interview Coach',
+        description: 'An AI-powered application for resume analysis and interview preparation, featuring stable PDF parsing and Next.js 16 compatibility.',
+        tag: 'AI',
+        tagColor: '#06b6d4',
+        lang: 'Next.js / OpenAI / Prisma',
+        url: 'https://github.com/harsh18601/AI_Resume_Interview_Coach',
+        image: '/assets/images/ai-coach.png',
+    },
+    {
+        id: 2,
+        title: 'Shree Radha Govind Jewellers',
+        description: 'A luxury jewellery e-commerce platform with personal stylist booking, ring builder, and heritage gallery.',
+        tag: 'WEB',
+        tagColor: '#3b82f6',
+        lang: 'Next.js / Contentful / Tailwind',
+        url: 'https://github.com/harsh18601/jewellery-website',
+        image: '/assets/images/jewellery.png',
+    },
+    {
+        id: 3,
+        title: 'Linear Clone',
+        description: 'A comprehensive project management application inspired by Linear, providing a seamless workflow for teams.',
+        tag: 'FULLSTACK',
+        tagColor: '#f59e0b',
+        lang: 'React / Node.js / MongoDB',
+        url: 'https://github.com/harsh18601/Linear-Clone',
+        image: '/assets/images/linear.png',
+    },
+    {
+        id: 4,
         title: 'TravelTrekApp',
         description: 'An Android app for travel enthusiasts — explore new places, discover events, and plan your next adventure.',
         tag: 'ANDROID',
@@ -12,7 +42,7 @@ const projects = [
         image: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=800&auto=format&fit=crop',
     },
     {
-        id: 2,
+        id: 5,
         title: 'TravelTrekWebsite',
         description: 'A one-stop travel web app to plan your entire trip beforehand — built with a server-side templating engine.',
         tag: 'WEB',
@@ -22,7 +52,7 @@ const projects = [
         image: 'https://images.unsplash.com/photo-1488085061387-422e29b40080?q=80&w=800&auto=format&fit=crop',
     },
     {
-        id: 3,
+        id: 6,
         title: 'LiveWeatherForecast',
         description: 'A real-time weather forecast app that fetches live weather data and displays it in an intuitive interface.',
         tag: 'WEB',
@@ -32,7 +62,7 @@ const projects = [
         image: '/assets/images/weather-preview.png',
     },
     {
-        id: 4,
+        id: 7,
         title: 'Job Change Prediction',
         description: 'Predicted job-seeking behaviour using classification algorithms. Achieved 91% accuracy with XGBoost on imbalanced data.',
         tag: 'ML',
@@ -42,7 +72,7 @@ const projects = [
         image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop',
     },
     {
-        id: 5,
+        id: 8,
         title: 'Football Player Analysis',
         description: 'Predicted the market value of football players using regression algorithms and ML techniques. Achieved 94% model accuracy.',
         tag: 'ML',
@@ -52,7 +82,7 @@ const projects = [
         image: 'https://images.unsplash.com/photo-1543326727-cf6c39e8f84c?q=80&w=800&auto=format&fit=crop',
     },
     {
-        id: 6,
+        id: 9,
         title: 'Bankruptcy Prediction',
         description: 'Applied multiple ML classification models to predict whether a company is likely to go bankrupt based on financial indicators.',
         tag: 'ML',
@@ -63,7 +93,7 @@ const projects = [
     },
 ];
 
-const filters = ['All', 'ANDROID', 'WEB', 'ML'];
+const filters = ['All', 'AI', 'FULLSTACK', 'WEB', 'ANDROID', 'ML'];
 
 const Projects = () => {
     const [activeFilter, setActiveFilter] = useState('All');
